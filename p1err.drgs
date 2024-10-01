@@ -1,0 +1,9 @@
+functdrgs max_3_cifre'nr a, nr b, nr c'
+	<
+	whatif 'a > b & a over c' # instead of ">" it should be "over"
+		suprem a
+	thenwhatif 'b over c'
+		suprem b
+	finale # typo, instead of finale it should have been finally
+		suprem c
+	>

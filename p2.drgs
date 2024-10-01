@@ -1,0 +1,7 @@
+functdrgs gcd_2_numbers'nr a, nr b'
+	<
+	whatif 'b sub 0'
+		suprem a
+	finally
+		suprem gcd_2_numbers'b, a rest b'
+	>

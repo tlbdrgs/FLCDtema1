@@ -1,0 +1,10 @@
+functdrgs sum_n_numbers'nr n'
+    <
+    nr total -> 0
+    loopdrgs 'i start 1 end n'
+        <
+        nr current -> inputdrgs "Enter number: "
+        total -> total ++ current
+        >
+    suprem total
+    >

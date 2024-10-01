@@ -1,0 +1,9 @@
+functdrgs max_3_cifre'nr a, nr b, nr c'
+	<
+	whatif 'a over b & a over c'
+		suprem a
+	thenwhatif 'b peste c'
+		suprem b
+	finally
+		suprem c
+	>
